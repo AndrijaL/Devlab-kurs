@@ -11,17 +11,21 @@
 </head>
 
 <body>
-    <header>
+    <div class = "container">
+
         <nav>
-            <ul>
-                <li><a href="/">Home</a></li>
-                <li><a href="/about.html">About</a></li>
-                <li><a href="/contact.html">Contact</a></li>
-            </ul>
+            <nav class="nav padding-nav">
+                <img alt="logo" src="./images/logo-brown.png" />
+                <ul>
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="./about.html">About</a></li>
+                    <li><a href="./contact.html">Contact</a></li>
+                </ul>
+            </nav>
         </nav>
-    </header>
+    
     <div>
-        <img src="./images/portrait1.webp" alt="portrait">
+        <img src="./images/portrait.jpg" alt="portrait">
         <h1>This is my first blog post</h1>
         <span>02.03.2024.</span>
         <p>More about my first blog post</p>
@@ -33,10 +37,34 @@
             ducimus, pariatur aspernatur quos ut esse facere aliquam nam assumenda fugiat quidem porro odit tempora amet
             accusantium.</p>
     </div>
-    <footer>
-        <span>This is footer example</span>
-        <p>© 2024 Photography Blog. All rights reserved.</p>
+    <footer class="footer">
+        <div class="flex-row padding-footer">
+            <div class="footer-col footer-logo">
+                <img alt="camera-logo" src="./images/logo.png" />
+                <p>Our photography blog is powered by a dedicated team of passionate photographers, talented
+                    writers,
+                    and
+                    tech enthusiasts - discover more about us at our "About Us" section. </p>
+            </div>
+            <div class="footer-col">
+                <p>Links:</p>
+                <a href="index.html">Home</a>
+                <a href="./about.html">About</a>
+                <a href="./contact.html">Contact</a>
+            </div>
+            <div class="footer-col">
+                <p>Follow us:</p>
+                <div>
+                    <i class="fa-brands fa-facebook"></i>
+                    <i class="fa-brands fa-instagram"></i>
+                    <i class="fa-brands fa-twitter"></i>
+                </div>
+            </div>
+        </div>
+        <p class="copyright">&copy; 2024 Photography Blog. All rights reserved.</p>
     </footer>
+    </div>
+        
 </body>
 
 </html>
